@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /index.html
+Allow: /livros/*.html
+
+Disallow: /midias/
+Disallow: /assets/
+Disallow: /img/
+Disallow: /livros/midias/
+Disallow: /livros/assets/
+Disallow: /.vscode/
+Disallow: /politica.html
+Disallow: /termos.html
+
+Noindex: /midias/
+Noindex: /assets/
+Noindex: /.vscode/
+Noindex: /politica.html
+Noindex: /termos.html
+Noindex: /livros/midias/
+Disallow: /livros/midias/
+Disallow: /livros/assets/
+
+
+Sitemap: https://livros.misticacursos.com.br/sitemap.xml

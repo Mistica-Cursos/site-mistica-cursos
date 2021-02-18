@@ -1,0 +1,23 @@
+:root {
+    --swiper-theme-color: #ff9933;
+}
+
+.produtos_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background: #333;
+}
